@@ -1,0 +1,134 @@
+
+/* .icones:hover {
+    color: sandybrown;
+    position: relative;
+    top: 10px;
+} */
+
+.icones {
+  
+  transition: .6s;
+  box-sizing: 0 5px 4px rgba(0,0,0,.5);
+}
+.icones:hover {
+  transform: translate(0, -10px);
+}
+.icones:nth-child(1) :hover {
+  background-color: white;
+  color: sandybrown;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+main {
+  flex: 1 0 auto;
+}
+nav {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+nav  ul  li  a {
+  font-size: 18px;
+}
+
+  @media screen and (min-width: 768px) {
+     .carousel1 {
+       height: 450px;
+     }
+     .carousel {
+       height: 500px;
+     }
+     .imgcarousell {
+        height: 450px;
+     }
+     .carousel-item {
+      height: 600px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .carousel1 {
+      height: 450px;
+    }
+    .carousel {
+      height: 500px;
+    }
+    .imgcarousell {
+       height: 450px;
+    }
+    .carousel-item {
+     height: 600px;
+   }
+   .imagemin {
+    height: 240px;
+  }
+ }
+  @media screen and (max-width: 500px) {
+    .carousel1 {
+      height: 350px;
+    }
+    .carousel {
+      height: 200px;
+    }
+    .imgcarousell {
+       height: 300px;
+    }
+    .carousel-item {
+     height: 250px;
+   }
+   .imagemin {
+    height: 240px;
+  }
+ }
+
+
+ .social-menu ul {
+  display: flex;
+}
+
+.social-menu ul li {
+  list-style-type: none;
+  margin: 0 5px;
+}
+
+.social-menu ul li .fa {
+  font-size: 25px;
+  line-height: 45px;
+  transition: .6s;
+  color: #000;
+}
+.social-menu ul li .fa:hover {
+  color: #fff;
+}
+.social-menu ul li a {
+  position: relative;
+  display: block;
+  width: 45px;
+  height: 45px;
+  border-radius:50px ;
+  background-color: #fff;
+  text-align: center;
+  transition: .6s;
+  box-sizing: 0 5px 4px rgba(0,0,0,.5);
+}
+.social-menu ul li a:hover {
+  transform: translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+  background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover {
+  background-color: #55acee;
+}
+.social-menu ul li:nth-child(3) a:hover {
+  background-color: #b92b27;
+}
+.social-menu ul li:nth-child(4) a:hover {
+  background-color: #cd201f;
+}
+

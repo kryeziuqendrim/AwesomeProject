@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embeltore Lina - Tortet</title>
+    <link rel="stylesheet" href="...">
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <style>
+        
+        
+        nav  ul  li  a {
+            font-size: 18px;
+        }
+        .redi {
+            background-color: red;
+            height: 100px;
+        }
+        .card {
+            width: 100%;
+            height: 450px;
+        }
+        img {
+            height: 300px;
+            object-fit: cover;
+        }
+        @media screen and (max-width: 500px) {
+            img {
+                height: 430px;
+            }
+            .card {
+                height: 550px;
+            }
+        }
+
+.social-menu ul {
+  display: flex;
+}
+
+.social-menu ul li {
+  list-style-type: none;
+  margin: 0 5px;
+}
+
+.social-menu ul li .fa {
+  font-size: 25px;
+  line-height: 45px;
+  transition: .6s;
+  color: #000;
+}
+.social-menu ul li .fa:hover {
+  color: #fff;
+}
+.social-menu ul li a {
+  position: relative;
+  display: block;
+  width: 45px;
+  height: 45px;
+  border-radius:50px ;
+  background-color: #fff;
+  text-align: center;
+  transition: .6s;
+  box-sizing: 0 5px 4px rgba(0,0,0,.5);
+}
+.social-menu ul li a:hover {
+  transform: translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+  background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover {
+  background-color: #55acee;
+}
+.social-menu ul li:nth-child(3) a:hover {
+  background-color: #b92b27;
+}
+.social-menu ul li:nth-child(4) a:hover {
+  background-color: #cd201f;
+}
+
+    </style>
+</head>
+<body>
+    <nav class="#8d6e63 brown lighten-1">
+    <div class="container">
+        <div class="nav-wrapper">
+          <a href="home.html" class="brand-logo"><em>Embeltore Lina</em></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="home.html">Kryefaqja</a></li>
+            <li><a href="tortet.html">Tortet</a></li>
+            <!-- <li><a href="porosit.html">Porosit</a></li> -->
+            <li><a href="kontakto.html">Kontakto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+      <ul class="sidenav" id="mobile-demo">
+            <li><a href="home.html">Kryefaqja</a></li>
+            <li><a href="tortet.html">Tortet</a></li>
+            <!-- <li><a href="porosit.html">Porosit</a></li> -->
+            <li><a href="kontakto.html">Kontakto</a></li>
+      </ul>
+    <script>
+        $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+  //JavaScript for NAVBAR
+
+        //JavaScript for Carousel
+        $(document).ready(function(){
+            $('.carousel').carousel();
+
+            // function for auto play carousel-slider
+
+            setInterval(function(){
+                $('.carousel').carousel('next');
+            }, 10000);
+        });
+    </script>
+    <div class="container-fluid">
+        <div class="row">
+            <h4 class="center"><em>Shiko tortet</em></h4>
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="nr-03.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Torte NR:03<i class="material-icons right">more_vert</i></span>
+                      <p><a href="porosit.html">Porosite</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Torte NR:03<i class="material-icons right">close</i></span>
+                      <p>Porositni Tortet e juaj per ditelindjet e juaj te familjareve tuaj.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="nr-04.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Torte NR:04<i class="material-icons right">more_vert</i></span>
+                      <p><a href="porosit.html">Porosite</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Torte NR:04<i class="material-icons right">close</i></span>
+                      <p>Porositni Tortet e juaj per ditelindjet e juaj te familjareve tuaj. Torten e gjeni ne katalog me numer :35</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="nr-05.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Torte NR:05<i class="material-icons right">more_vert</i></span>
+                      <p><a href="porosit.html">Porosite</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Torte NR:05<i class="material-icons right">close</i></span>
+                      <p>Porositni Tortet e juaj per ditelindjet e juaj te familjareve tuaj.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="nr-06.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Torte NR:06<i class="material-icons right">more_vert</i></span>
+                      <p><a href="porosit.html">Porosite</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Torte NR:06<i class="material-icons right">close</i></span>
+                      <p>Porositni Tortet e juaj per ditelindjet e juaj te familjareve tuaj.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="nr-07.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Torte NR:07<i class="material-icons right">more_vert</i></span>
+                      <p><a href="porosit.html">Porosite</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Torte NR:07<i class="material-icons right">close</i></span>
+                      <p>Porositni Tortet e juaj per ditelindjet e juaj te familjareve tuaj, per ahengje te ndryshme familjare etj.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="nr-08.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Torte NR:08<i class="material-icons right">more_vert</i></span>
+                      <p><a href="porosit.html">Porosite</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Torte NR:08<i class="material-icons right">close</i></span>
+                      <p>Porositni Tortet e juaj per ditelindjet e juaj te familjareve tuaj.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="nr-09.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Torte NR:09<i class="material-icons right">more_vert</i></span>
+                      <p><a href="porosit.html">Porosite</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Torte NR:09<i class="material-icons right">close</i></span>
+                      <p>Porositni Tortet e juaj per ditelindjet e juaj te familjareve tuaj.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="nr-10.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Torte NR:10<i class="material-icons right">more_vert</i></span>
+                      <p><a href="porosit.html">Porosite</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Torte NR:10<i class="material-icons right">close</i></span>
+                      <p>Porositni Tortet e juaj per ditelindjet e juaj te familjareve tuaj.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="nr-11.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Torte NR:11<i class="material-icons right">more_vert</i></span>
+                      <p><a href="porosit.html">Porosite</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Torte NR:11<i class="material-icons right">close</i></span>
+                      <p>Porositni Tortet e juaj per ditelindjet e juaj te familjareve tuaj.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="nr-12.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Torte NR:12<i class="material-icons right">more_vert</i></span>
+                      <p><a href="porosit.html">Porosite</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Torte NR:12<i class="material-icons right">close</i></span>
+                      <p>Porositni Tortet e juaj per ditelindjet e juaj te familjareve tuaj.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="nr-13.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Torte NR:13<i class="material-icons right">more_vert</i></span>
+                      <p><a href="porosit.html">Porosite</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Torte NR:13<i class="material-icons right">close</i></span>
+                      <p>Porositni Tortet e juaj per ditelindjet e juaj te familjareve tuaj.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="nr-14.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Torte NR:14<i class="material-icons right">more_vert</i></span>
+                      <p><a href="porosit.html">Porosite</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Torte NR:14<i class="material-icons right">close</i></span>
+                      <p>Porositni Tortet e juaj per ditelindjet e juaj te familjareve tuaj.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="nr-15.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Torte NR:15<i class="material-icons right">more_vert</i></span>
+                      <p><a href="porosit.html">Porosite</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Torte NR:15<i class="material-icons right">close</i></span>
+                      <p>Porositni Tortet e juaj per ditelindjet e juaj te familjareve tuaj.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="nr-16.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Torte NR:16<i class="material-icons right">more_vert</i></span>
+                      <p><a href="porosit.html">Porosite</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Torte NR:16<i class="material-icons right">close</i></span>
+                      <p>Porositni Tortet e juaj per ditelindjet e juaj te familjareve tuaj.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="nr-17.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Torte NR:17<i class="material-icons right">more_vert</i></span>
+                      <p><a href="porosit.html">Porosite</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Torte NR:17<i class="material-icons right">close</i></span>
+                      <p>Porositni Tortet e juaj per ditelindjet e juaj te familjareve tuaj.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="nr-18.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Torte NR:18<i class="material-icons right">more_vert</i></span>
+                      <p><a href="porosit.html">Porosite</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Torte NR:18<i class="material-icons right">close</i></span>
+                      <p>Porositni Tortet e juaj per ditelindjet e juaj te familjareve tuaj.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="nr-19.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Torte NR:19<i class="material-icons right">more_vert</i></span>
+                      <p><a href="porosit.html">Porosite</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Torte NR:19<i class="material-icons right">close</i></span>
+                      <p>Porositni Tortet e juaj per ditelindjet e juaj te familjareve tuaj.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="nr-20.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Torte NR:20<i class="material-icons right">more_vert</i></span>
+                      <p><a href="porosit.html">Porosite</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Torte NR:20<i class="material-icons right">close</i></span>
+                      <p>Porositni Tortet e juaj per ditelindjet e juaj te familjareve tuaj.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="nr-21.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Torte NR:21<i class="material-icons right">more_vert</i></span>
+                      <p><a href="porosit.html">Porosite</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Torte NR:21<i class="material-icons right">close</i></span>
+                      <p>Porositni Tortet e juaj per ditelindjet e juaj te familjareve tuaj.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="nr-22.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Torte NR:22<i class="material-icons right">more_vert</i></span>
+                      <p><a href="porosit.html">Porosite</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Torte NR:22<i class="material-icons right">close</i></span>
+                      <p>Porositni Tortet e juaj per ditelindjet e juaj te familjareve tuaj.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="nr-23.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Torte NR:23<i class="material-icons right">more_vert</i></span>
+                      <p><a href="porosit.html">Porosite</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Torte NR:23<i class="material-icons right">close</i></span>
+                      <p>Porositni Tortet e juaj per ditelindjet e juaj te familjareve tuaj.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="nr-24.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Torte NR:24<i class="material-icons right">more_vert</i></span>
+                      <p><a href="porosit.html">Porosite</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Torte NR:24<i class="material-icons right">close</i></span>
+                      <p>Porositni Tortet e juaj per ditelindjet e juaj te familjareve tuaj.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="nr-25.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Torte NR:25<i class="material-icons right">more_vert</i></span>
+                      <p><a href="porosit.html">Porosite</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Torte NR:25<i class="material-icons right">close</i></span>
+                      <p>Porositni Tortet e juaj per ditelindjet e juaj te familjareve tuaj.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="nr-26.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Torte NR:26<i class="material-icons right">more_vert</i></span>
+                      <p><a href="porosit.html">Porosite</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Torte NR:26<i class="material-icons right">close</i></span>
+                      <p>Porositni Tortet e juaj per ditelindjet e juaj te familjareve tuaj.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="nr-27.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Torte NR:27<i class="material-icons right">more_vert</i></span>
+                      <p><a href="porosit.html">Porosite</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Torte NR:27<i class="material-icons right">close</i></span>
+                      <p>Porositni Tortet e juaj per ditelindjet e juaj te familjareve tuaj.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="nr-28.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Torte NR:28<i class="material-icons right">more_vert</i></span>
+                      <p><a href="porosit.html">Porosite</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Torte NR:28<i class="material-icons right">close</i></span>
+                      <p>Porositni Tortet e juaj per ditelindjet e juaj te familjareve tuaj.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="nr-29.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Torte NR:29<i class="material-icons right">more_vert</i></span>
+                      <p><a href="porosit.html">Porosite</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Torte NR:29<i class="material-icons right">close</i></span>
+                      <p>Porositni Tortet e juaj per ditelindjet e juaj te familjareve tuaj.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="nr-30.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Torte NR:30<i class="material-icons right">more_vert</i></span>
+                      <p><a href="porosit.html">Porosite</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Torte NR:30<i class="material-icons right">close</i></span>
+                      <p>Porositni Tortet e juaj per ditelindjet e juaj te familjareve tuaj.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="nr-31.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Torte NR:31<i class="material-icons right">more_vert</i></span>
+                      <p><a href="porosit.html">Porosite</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Torte NR:31<i class="material-icons right">close</i></span>
+                      <p>Porositni Tortet e juaj per ditelindjet e juaj te familjareve tuaj.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="nr-33.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Torte NR:33<i class="material-icons right">more_vert</i></span>
+                      <p><a href="porosit.html">Porosite</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Torte NR:33<i class="material-icons right">close</i></span>
+                      <p>Porositni Tortet e juaj per ditelindjet e juaj te familjareve tuaj.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="nr-34.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Torte NR:34<i class="material-icons right">more_vert</i></span>
+                      <p><a href="porosit.html">Porosite</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Torte NR:34<i class="material-icons right">close</i></span>
+                      <p>Porositni Tortet e juaj per ditelindjet e juaj te familjareve tuaj.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="nr-35.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Torte NR:35<i class="material-icons right">more_vert</i></span>
+                      <p><a href="porosit.html">Porosite</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Torte NR:35<i class="material-icons right">close</i></span>
+                      <p>Porositni Tortet e juaj per ditelindjet e juaj te familjareve tuaj.</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="page-footer #8d6e63 brown lighten-0">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Faleminderit!</h5>
+              <p class="grey-text text-lighten-4">Jeni të mirëseardhur dhe ju mirëpresim në lokalet tona.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Links</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="home.html">Kryefaqja</a></li>
+                <li><a class="grey-text text-lighten-3" href="tortet.html">Tortet</a></li>
+                <!-- <li><a class="grey-text text-lighten-3" href="porosit.html">Porosit</a></li> -->
+                <li><a class="grey-text text-lighten-3" href="kontakto.html">Kontakto</a></li>
+              </ul>
+            </div>
+            <div class="col l12 s12 center-align">
+              <div class="footer-section contact-form text-center">
+                <div class="social-menu">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+          </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container center-align">
+          ©2020-QendrimKryeziu
+          </div>
+        </div>
+      </footer>
+
+</body>
+</html>

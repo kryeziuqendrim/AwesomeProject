@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embeltore Lina - Kontakto</title>
+    <link rel="stylesheet" href="...">
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<style>
+    form {
+        position: relative;
+        top: 30px;
+        
+    }
+    nav  ul  li  a {
+        font-size: 18px;
+    }
+    
+    .social-menu ul {
+  display: flex;
+}
+
+.social-menu ul li {
+  list-style-type: none;
+  margin: 0 5px;
+}
+
+.social-menu ul li .fa {
+  font-size: 25px;
+  line-height: 45px;
+  transition: .6s;
+  color: #000;
+}
+.social-menu ul li .fa:hover {
+  color: #fff;
+}
+.social-menu ul li a {
+  position: relative;
+  display: block;
+  width: 45px;
+  height: 45px;
+  border-radius:50px ;
+  background-color: #fff;
+  text-align: center;
+  transition: .6s;
+  box-sizing: 0 5px 4px rgba(0,0,0,.5);
+}
+.social-menu ul li a:hover {
+  transform: translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+  background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover {
+  background-color: #55acee;
+}
+.social-menu ul li:nth-child(3) a:hover {
+  background-color: #b92b27;
+}
+.social-menu ul li:nth-child(4) a:hover {
+  background-color: #cd201f;
+}
+
+</style>
+</head>
+<body>
+    <nav class="#8d6e63 brown lighten-1">
+    <div class="container">
+        <div class="nav-wrapper">
+          <a href="home.html" class="brand-logo"><em>Embeltore Lina</em></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="home.html">Kryefaqja</a></li>
+            <li><a href="tortet.html">Tortet</a></li>
+            <!-- <li><a href="porosit.html">Porosit</a></li> -->
+            <li><a href="kontakto.html">Kontakto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+      <ul class="sidenav" id="mobile-demo">
+            <li><a href="home.html">Kryefaqja</a></li>
+            <li><a href="tortet.html">Tortet</a></li>
+            <!-- <li><a href="porosit.html">Porosit</a></li> -->
+            <li><a href="kontakto.html">Kontakto</a></li>
+      </ul>
+      <script>
+
+          //JavaScript for NAVBAR
+        document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
+  });
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+  //JavaScript for NAVBAR
+
+      </script>
+
+      <div class="container">
+        <div class="row">
+            <div class="col l2"></div>
+            <div class="col s12 m10 l8">
+                <form action="rezervo">
+                    <legend>Kontakto me ne:</legend>
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="emri">Emri:</label>
+                            </td>
+                            <td>
+                                <input type="text" name="emri" id="emri" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="mbiemri">Mbiemri:</label>
+                            </td>
+                            <td>
+                                <input type="text" name="mbiemri" id="mbiemri" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="email">Email:</label>
+                            </td>
+                            <td>
+                                <input type="email" name="email" id="email" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="tel">Numri Tel:</label>
+                            </td>
+                            <td>
+                                <input type="tel" name="tel" id="tel" required>
+                            </td>
+                        </tr>
+                        
+                       <tr>
+                           <td>
+                               <label for="">Gjinia:</label>
+                           </td>
+                           <td>
+                            <p>
+                                <label>
+                                    <input class="with-gap" name="group3" type="radio" checked>
+                                    <span>Male</span>
+                                  </label>
+                                  <label>
+                                    <input class="with-gap" name="group3" type="radio" checked>
+                                    <span>Female</span>
+                                  </label>
+                              </p>
+                           </td>
+                       </tr>
+                       <tr>
+                           <td>
+                               <label for="vendi">Vendi:</label>
+                           </td>
+                           <td>
+                               <input type="text" name="" id="">
+                           </td>
+                       </tr>
+                       <tr>
+                           <td>
+                               <label for="">Mesazhi juaj:</label>
+                           </td>
+                           <td>
+                               <textarea name="mesazhi" id="" cols="40" rows="0" style="height: 100px; width: 100%;"></textarea>
+                           </td>
+                       </tr>
+                       <tr>
+                           <td></td>
+                           <td>
+                               <a href="#!" class="btn green darken-1" style="display: block;">Button</a>
+                           </td>
+                       </tr>
+                    </table>
+                    <tr>
+                        <td>
+                            <p class="center">Informacionet e juaja mbrohen me Ligj dhe jan informacione konfidenciale</p>
+                        </td>
+                    </tr>
+                </form>
+            </div>
+            <div class="col l2"></div>
+        </div>
+      </div>
+    
+      <footer class="page-footer #8d6e63 brown lighten-0">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Faleminderit!</h5>
+              <p class="grey-text text-lighten-4">Jeni të mirëseardhur dhe ju mirëpresim në lokalet tona.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Links</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="home.html">Kryefaqja</a></li>
+                <li><a class="grey-text text-lighten-3" href="tortet.html">Tortet</a></li>
+                <!-- <li><a class="grey-text text-lighten-3" href="porosit.html">Porosit</a></li> -->
+                <li><a class="grey-text text-lighten-3" href="kontakto.html">Kontakto</a></li>
+              </ul>
+            </div>
+            <div class="col l12 s12 center-align">
+                <div class="footer-section contact-form text-center">
+                  <div class="social-menu">
+                      <ul>
+                          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                          <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                      </ul>
+                  </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container center-align">
+          ©2020-QendrimKryeziu
+          </div>
+        </div>
+      </footer>
+</body>
+</html>

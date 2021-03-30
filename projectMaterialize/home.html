@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embeltore Lina</title>
+    <link rel="stylesheet" href="home.css">
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+<body>
+    <nav class="#8d6e63 brown lighten-1">
+    <div class="container">
+        <div class="nav-wrapper">
+          <a href="home.html" class="brand-logo"><em>Embeltore Lina</em></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="home.html">Kryefaqja</a></li>
+            <li><a href="tortet.html">Tortet</a></li>
+            <!-- <li><a href="porosit.html">Porosit</a></li> -->
+            <li><a href="kontakto.html">Kontakto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+      <ul class="sidenav" id="mobile-demo">
+            <li><a href="home.html">Kryefaqja</a></li>
+            <li><a href="tortet.html">Tortet</a></li>
+            <!-- <li><a href="porosit.html">Porosit</a></li> -->
+            <li><a href="kontakto.html">Kontakto</a></li>
+      </ul>
+    <script>
+        //JavaScript for NAVBAR
+        document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
+  });
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+  //JavaScript for NAVBAR
+
+        //JavaScript for Carousel
+        $(document).ready(function(){
+            $('.carousel').carousel();
+
+            // function for auto play carousel-slider
+
+            setInterval(function(){
+                $('.carousel').carousel('next');
+            }, 10000);
+        });
+        //JavaScript for Carousel
+    </script>
+    <div class="container-fluid carousel1" >
+        <div class="row">
+        <div class="carousel carousel-slider carousel1" data-indicators="true" >
+            <a href="#one!" class="carousel-item min"><img src="cake-3.jpg" class="imgcarousell"></a>
+            <a href="#two!" class="carousel-item min"><img src="cake-2.jpg" class="imgcarousell"></a>
+            <a href="#three!" class="carousel-item min"><img src="cake-1.jpg" class="imgcarousell"></a>
+            
+        </div>
+    </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col s12 m12 l4">
+                <div class="">
+                    <div class="card-image center icones">
+                    <i class="medium material-icons ">insert_emoticon</i>
+                        
+                </div>
+                    <div class="card-contetnt center-align">
+                        <h5 class="card-title">Cholately New</h5>
+                        <p>Përzierja perfekte e çokollatës dhe bajames. Aroma e përsosur e frutave të thata për adhuruesit e çokollatës dhe bajames.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m12 l4">
+                <div class="">
+                    <div class="card-image center icones">
+                    <i class="medium material-icons ">favorite_border</i>
+                        
+                </div>
+                    <div class="card-contetnt center-align">
+                        <h5 class="card-title">Fresh Bakings</h5>
+                        <p>Provoni një shumëllojshmëri të recetave të tortave që ne i pjekim shumë të shijshëm.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m12 l4">
+                <div class="">
+                    <div class="card-image center icones">
+                    <i class="medium material-icons ">verified_user</i>
+                        
+                </div>
+                    <div class="card-contetnt center-align">
+                        <h5 class="card-title">Delicious Cookies</h5>
+                        <p>Ju pëlqejnë biskotat. Atëherë, pse do t’i hanim vetëm për ëmbëlsirë? Biskota të përzemërta për mëngjesin.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fluid-container">
+        <div class="row">
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image">
+                      <img src="coffee-206142_1280.jpg">
+                      <span class="card-title">Shijo Kafen</span>
+                    </div>
+                    <div class="card-content">
+                      <p>Embeltore Lina ejani e shijoni kafen e mëngjesit qastet më të mira, dhe kafja më e mirë.</p>
+                    </div>
+                    <div class="card-action">
+                      <a href="#">Kafe me shoqëri</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image">
+                      <img src="birthday-1208233_1280.jpg">
+                      <span class="card-title">Happy Birthday</span>
+                    </div>
+                    <div class="card-content">
+                      <p>Suprizo familjarët e juaj, porositni torten e juaj te perferuar, festoni së bashku, festo në shtëpi.</p>
+                    </div>
+                    <div class="card-action">
+                      <a href="#">Porosit</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image">
+                      <img src="baklava-5652412_1280.jpg">
+                      <span class="card-title">Bakllava</span>
+                    </div>
+                    <div class="card-content">
+                      <p>Bëjmë bakllava me porosit, porsitni bakllavat tuaja siç dëshironi porosit tani.</p>
+                    </div>
+                    <div class="card-action">
+                      <a href="#">Porosit Bakllava</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col s12 m6 l4 hide-on-large-only hide-on-small-only ">
+                <div class="card">
+                    <div class="card-image">
+                      <img src="baklava-5652412_1280.jpg">
+                      <span class="card-title">Bakllava</span>
+                    </div>
+                    <div class="card-content">
+                      <p>Bëjmë bakllava me porosit, porsitni bakllavat tuaja siç dëshironi porosit tani.</p>
+                    </div>
+                    <div class="card-action">
+                      <a href="#">Porosit Bakllava</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="fluid-container">
+        <div class="row">
+              <div class="col s12 m12 l12">
+                <!-- <h2 class="header">Card</h2> -->
+                <div class="card horizontal">
+                  <div class="card-image">
+                    <img src="baklava-5652412_1280.jpg" class="imagemin">
+                  </div>
+                  <div class="card-stacked">
+                    <div class="card-content">
+                      <p>I am a very simple card. I am good at containing small bits of information. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aperiam ipsam similique consequatur eaque numquam. Tempora ab nulla illo officiis dolore. Et, nesciunt in! Quis quidem tenetur dolorum porro velit.</p>
+                    </div>
+                    <!-- <div class="card-action">
+                      <a href="#">This is a link</a>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 m12 l12">
+                <!-- <h2 class="header">Card2</h2> -->
+                <div class="card horizontal">
+                  <div class="card-stacked">
+                    <div class="card-content">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam at quo iusto odit maxime nam, quaerat voluptas distinctio. Doloremque exercitationem natus ipsa quos cum aliquid sapiente quo eum placeat provident!</p>
+                    </div>
+                    <!-- <div class="card-action">
+                      <a href="#">This is a link</a>
+                    </div> -->
+                  </div>
+                  <div class="card-image">
+                    <img src="cake-1971556_1920.jpg" class="imagemin" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 m12 l12">
+                <!-- <h2 class="header">Card3</h2> -->
+                <div class="card horizontal">
+                  <div class="card-image">
+                    <img src="cake-1.jpg" class="imagemin" alt="">
+                  </div>
+                  <div class="card-stacked">
+                    <div class="card-content">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda sit quis deserunt repudiandae quod, iusto natus cum dolorum nam eligendi, nesciunt tenetur nemo! Quae, itaque possimus autem quia vitae voluptatum!</p>
+                    </div>
+                    <!-- <div class="card-action">
+                      <a href="#">This is a link</a>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+
+
+
+    <footer class="page-footer #8d6e63 brown lighten-0">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Faleminderit!</h5>
+              <p class="grey-text text-lighten-4">Jeni të mirëseardhur dhe ju mirëpresim në lokalet tona.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Links</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="home.html">Kryefaqja</a></li>
+                <li><a class="grey-text text-lighten-3" href="tortet.html">Tortet</a></li>
+                <!-- <li><a class="grey-text text-lighten-3" href="porosit.html">Porosit</a></li> -->
+                <li><a class="grey-text text-lighten-3" href="kontakto.html">Kontakto</a></li>
+              </ul>
+            </div>
+            <div class="col l12 s12 center-align">
+              <div class="footer-section contact-form text-center">
+                <div class="social-menu">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container center-align">
+          ©2020-QendrimKryeziu
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
